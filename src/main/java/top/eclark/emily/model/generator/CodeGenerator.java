@@ -61,7 +61,7 @@ public class CodeGenerator {
         PackageConfig pc = new PackageConfig();
         // 生成路径 com.sms.模块名
         pc.setModuleName("server");
-        pc.setParent("com.matrix.pilot");
+        pc.setParent("top.eclark.emily.model");
         mpg.setPackageInfo(pc);
 
         // 自定义配置
